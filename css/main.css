@@ -113,7 +113,9 @@ footer {
   .consola {
     display: none; }
   .cuerpo__banner__redes h3 {
-    display: none; } }
+    display: none; }
+  .cuerpo__banner ul {
+    padding: 10px; } }
 
 .cuerpo__banner {
   /* logo posicionado flex*/
