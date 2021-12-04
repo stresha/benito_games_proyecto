@@ -22,7 +22,7 @@ footer {
 .cuerpo__banner__nov {
   font-family: 'Josefin Sans', sans-serif; }
 
-.cuerpo_contacto {
+.cuerpo__contacto {
   background-image: url(../multimedia/img/contacto/snow.png);
   background-size: 300px;
   animation: snow 40s linear infinite; }
