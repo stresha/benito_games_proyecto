@@ -110,6 +110,8 @@ footer {
     width: 100%; }
   .banner_noticias {
     padding: 20px; }
+  .consola {
+    display: none; }
   .cuerpo__banner__redes h3 {
     display: none; } }
 
