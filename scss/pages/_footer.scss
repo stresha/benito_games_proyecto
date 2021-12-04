@@ -1,0 +1,31 @@
+.cuerpo__banner {   /* logo posicionado flex*/
+    background-image: url(../multimedia/img/footer_banner/ban.jfif);
+    background-size: contain;
+    color: black;
+    font-family: $letra-tipe-1 ;   
+ 
+ul {
+    list-style: none;
+
+a {
+    color:#000000 !important;
+    text-decoration:none;
+    
+}
+}
+}
+
+.cuerpo__banner__redes {
+    color: $color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ul {
+    
+    list-style: none;
+li {
+    margin-left: 40px;
+} 
+}
+}
