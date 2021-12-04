@@ -133,6 +133,23 @@ footer {
     .cuerpo__banner__redes ul li {
       margin-left: 40px; }
 
+.main__preguntas {
+  text-align: center;
+  color: #ffff00;
+  text-transform: uppercase; }
+  .main__preguntas h2 {
+    border: solid gray;
+    border-radius: 80px; }
+
+.cuestionario {
+  text-align: center;
+  color: #ffff00; }
+  .cuestionario li {
+    list-style: none;
+    text-decoration: none !important; }
+    .cuestionario li a {
+      color: #ffff00; }
+
 .formulario {
   font-family: 'Dancing Script', cursive; }
 
