@@ -5,12 +5,18 @@
     font-family: $letra-tipe-1 ;   
  
 ul {
+    
     list-style: none;
 
 a {
+    font-weight: 600;; 
     color:#000000 !important;
     text-decoration:none;
-    
+
+    li {
+        margin: 40px ;
+
+    }
 }
 }
 }
@@ -25,7 +31,12 @@ ul {
     
     list-style: none;
 li {
+    
     margin-left: 40px;
 } 
 }
+}
+.footer_cat {
+    width: 60px;
+    height: 80px;
 }

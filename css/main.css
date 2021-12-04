@@ -126,8 +126,11 @@ footer {
   .cuerpo__banner ul {
     list-style: none; }
     .cuerpo__banner ul a {
+      font-weight: 600;
       color: #000000 !important;
       text-decoration: none; }
+      .cuerpo__banner ul a li {
+        margin: 40px; }
 
 .cuerpo__banner__redes {
   color: #ffff00;
@@ -139,6 +142,10 @@ footer {
     .cuerpo__banner__redes ul li {
       margin-left: 40px; }
 
+.footer_cat {
+  width: 60px;
+  height: 80px; }
+
 .main__preguntas {
   text-align: center;
   color: #ffff00;
@@ -148,13 +155,15 @@ footer {
     border-radius: 80px; }
 
 .cuestionario {
-  text-align: center;
-  color: #ffff00; }
+  color: #ffff00;
+  margin: 0px; }
   .cuestionario li {
     list-style: none;
     text-decoration: none !important; }
-    .cuestionario li a {
-      color: #ffff00; }
+    .cuestionario li ul {
+      padding-left: 0px !important; }
+      .cuestionario li ul a {
+        color: #ffff00; }
 
 .formulario {
   font-family: 'Dancing Script', cursive; }

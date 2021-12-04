@@ -1,0 +1,43 @@
+Desafio agregando SEO-
+
+
+Detallo todos los cambios generados desde la ultima entrega.
+
+*Agregue  :
+
+*"keywords": en cada uno de los html, con sus respectivas palabras clave que tienen relacion con su contenido.
+
+*"description": en cada uno de los html, describiendo brevemente cada pagina. 
+
+*Optimizacon y orden jerarquico de los H1,H2,H3, etc .
+
+*Titulo a cada pagina :
+
+*index : Home | Benito Games 
+
+*tienda : Tienda | Benito Games
+
+*contacto :Contacto | Benito Games
+
+*preguntas : Preguntas Frecuentes | Benito Games
+
+*novedades :Novedades | Benito Games
+
+*noticias : Noticias | Benito Games
+
+
+*optimizacion para dispositivos moviles con media querries .
+
+*Agregue html de fac  ( preguntas frecuentes ) con su contenido. 
+
+
+*Cambio de footer y redes sociales con nuevos diseños de iconos. 
+
+*Nueva seccion de juegos  en index con estilos. 
+
+*correcion de errores.
+
+
+
+
+
