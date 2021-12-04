@@ -110,12 +110,15 @@ footer {
     width: 100%; }
   .banner_noticias {
     padding: 20px; }
-  .consola {
-    display: none; }
   .cuerpo__banner__redes h3 {
     display: none; }
   .cuerpo__banner ul {
-    padding: 10px; } }
+    padding: 10px; }
+  .list-final {
+    display: block  !important;
+    margin-bottom: 15px; }
+    .list-final li {
+      margin-top: 15px; } }
 
 .cuerpo__banner {
   /* logo posicionado flex*/
@@ -129,8 +132,24 @@ footer {
       font-weight: 600;
       color: #000000 !important;
       text-decoration: none; }
-      .cuerpo__banner ul a li {
-        margin: 40px; }
+
+.list-final {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px; }
+  .list-final li {
+    font-size: small;
+    margin-bottom: 15px;
+    margin-left: 25px; }
+
+.footer__cat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .footer__cat .footer__cat__banner {
+    margin-left: 35px;
+    width: auto;
+    height: 70px; }
 
 .cuerpo__banner__redes {
   color: #ffff00;
@@ -140,11 +159,7 @@ footer {
   .cuerpo__banner__redes ul {
     list-style: none; }
     .cuerpo__banner__redes ul li {
-      margin-left: 40px; }
-
-.footer_cat {
-  width: 60px;
-  height: 80px; }
+      padding-left: 40px; }
 
 .main__preguntas {
   text-align: center;

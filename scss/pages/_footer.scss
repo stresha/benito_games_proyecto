@@ -9,34 +9,47 @@ ul {
     list-style: none;
 
 a {
+    
     font-weight: 600; 
     color:#000000 !important;
     text-decoration:none;
 
-    li {
-        margin: 40px ;
+}
+}
+}
+.list-final {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+li {
+    font-size: small;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+}
 
-    }
-}
-}
-}
+.footer__cat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+.footer__cat__banner {
+    margin-left: 35px;
+    width: auto;
+    height: 70px;
 
+}
+}
 .cuerpo__banner__redes {
+    
     color: $color;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
 ul {
-    
     list-style: none;
-li {
-    
-    margin-left: 40px;
-} 
+li{
+    padding-left: 40px;
 }
 }
-.footer_cat {
-    width: 60px;
-    height: 80px;
 }
