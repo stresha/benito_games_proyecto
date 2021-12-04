@@ -1,0 +1,50 @@
+
+.producto {
+    width: 220px;
+    position: relative;
+    transition:  3s ;
+    transform: perspective(800px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+    padding: $padding-tipe / 2;
+    background-image: url(../multimedia/img/contacto/table2.jpg);
+    background-size: cover; 
+    border: $color solid;
+    border-radius: $border-grosor;
+    color: $color;
+}
+
+.producto:hover {
+    transform : perspective(800px) rotateY(-180deg) translateX(100%)
+}
+
+.producto__back {
+    
+    padding: $padding-tipe  / 2;
+    background-image: url(../multimedia/img/contacto/table2.jpg);
+    background-size: cover; 
+    transform: rotateY(180deg);
+    border-radius: $border-grosor;
+    text-align: center;
+
+    p {
+        margin: 40px;
+    }
+}
+
+.producto  .producto__back {
+    position: absolute;
+    @include size (100%,100%) ;
+    backface-visibility: hidden;
+}
+
+.producto__boton__tienda {
+    width: 100px;
+    background: gray;
+    border-radius: $border-grosor;  
+}
+
+.acordeon__tienda {
+    @include tienda (#0000,#ffff00) ;
+ 
+}

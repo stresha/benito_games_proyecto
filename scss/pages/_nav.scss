@@ -1,0 +1,16 @@
+
+.nav-link {
+    margin: 15px;
+    padding: $padding-tipe / 2; /*espacio alrededor texto*/
+    text-transform:uppercase; /*capitalización texto*/
+    font-family: $letra-tipe-1;
+    border-radius: 30px; /*bordes redondos*/
+    letter-spacing: 6px;
+    text-align: center;
+}
+.nav-link:hover {
+  
+    box-shadow: 0 0 5px  $color, 0 0 10px   $color, 0 0 10px   $color;  /*sombra */
+    color: $color;
+    
+}

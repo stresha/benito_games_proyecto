@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body {
+  cursor: url(../multimedia/img/portada/flecha.png), auto; }
+
+a {
+  cursor: url(../multimedia/img/portada/flecha.png), auto; }
+
+footer {
+  cursor: url(../multimedia/img/portada/flecha.png), auto; }
+
+.cuerpo__banner {
+  /* logo posicionado flex*/
+  background-image: url(../multimedia/img/footer_banner/ban.jfif);
+  background-size: contain;
+  color: black;
+  font-family: "IM Fell English SC", serif; }
+
+.banner__tienda {
+  background-image: url(../multimedia/img/footer_banner/cinta.png);
+  border-radius: 80px;
+  font-family: 'Henny Penny', cursive; }
+
+.banner__noticias {
+  background-image: url(../multimedia/img/footer_banner/cinta.png);
+  border-radius: 60px;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: medium; }
+
+.cuerpo__banner__nov {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.cuerpo_contacto {
+  background-image: url(../multimedia/img/contacto/snow.png);
+  background-size: 300px;
+  animation: snow 40s linear infinite; }
+
+.cuerpo__novedades {
+  background-image: url(../multimedia/img/footer_banner/fondo3.jpg);
+  background-size: 300px;
+  animation: snow 30s linear infinite; }
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px; }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
+
+.nav-link {
+  margin: 15px;
+  padding: 10px;
+  /*espacio alrededor texto*/
+  text-transform: uppercase;
+  /*capitalización texto*/
+  font-family: "IM Fell English SC", serif;
+  border-radius: 30px;
+  /*bordes redondos*/
+  letter-spacing: 6px;
+  text-align: center; }
+
+.nav-link:hover {
+  box-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00, 0 0 10px #ffff00;
+  /*sombra */
+  color: #ffff00; }
+
+.producto {
+  width: 220px;
+  position: relative;
+  transition: 3s;
+  transform: perspective(800px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+  padding: 10px;
+  background-image: url(../multimedia/img/contacto/table2.jpg);
+  background-size: cover;
+  border: #ffff00 solid;
+  border-radius: 80px;
+  color: #ffff00; }
+
+.producto:hover {
+  transform: perspective(800px) rotateY(-180deg) translateX(100%); }
+
+.producto__back {
+  padding: 10px;
+  background-image: url(../multimedia/img/contacto/table2.jpg);
+  background-size: cover;
+  transform: rotateY(180deg);
+  border-radius: 80px;
+  text-align: center; }
+  .producto__back p {
+    margin: 40px; }
+
+.producto .producto__back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden; }
+
+.producto__boton__tienda {
+  width: 100px;
+  background: gray;
+  border-radius: 80px; }
+
+.acordeon__tienda {
+  background-color: #0000;
+  color: #ffff00; }
+
+@media (max-width: 600px) {
+  iframe {
+    width: 100%; }
+  .banner_noticias {
+    padding: 20px; } }
+
+.formulario {
+  font-family: 'Dancing Script', cursive; }
+
+.gato__logo {
+  transition: 3s; }
+
+.gato__logo:hover {
+  transform: rotateY(180deg); }
+
+.link__youtube {
+  border-radius: 40px;
+  border: solid #ffff00; }
+
+.icono__noticias {
+  transition: 2s; }
+
+.icono__noticias:hover {
+  transform: scale(1.2); }

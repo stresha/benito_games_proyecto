@@ -1,0 +1,38 @@
+@import "estilos/variables" ;
+@import "pages/cursor";
+@import "pages/cuerpo";
+@import "pages/nav";
+@import "pages/producto" ;
+@import "estilos/media-queries" ;
+
+
+.formulario { 
+    font-family: 'Dancing Script', cursive;
+}
+
+.gato__logo {
+    transition: 3s; 
+}
+
+.gato__logo:hover {
+    transform: rotateY(180deg);  
+}   
+
+.link__youtube {
+   border-radius: $border-grosor / 2;
+   border: solid $color;
+}
+
+.icono__noticias {
+    transition: 2s;
+   
+}
+
+.icono__noticias:hover {
+   transform: scale(1.2);
+}
+
+
+
+  
+    

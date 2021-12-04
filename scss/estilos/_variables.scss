@@ -1,0 +1,16 @@
+$color : #ffff00 ;
+$letra-tipe-1 : 'IM Fell English SC', serif  ;
+$padding-tipe : 20px ;
+$border-grosor : 80px ;
+
+
+@mixin size ($alto, $ancho) {
+    height: $alto;
+    width: $ancho ;
+}
+
+@mixin tienda ($fondo, $letra-color) {
+    background-color: $fondo;
+    color: $letra-color ;
+}
+    
