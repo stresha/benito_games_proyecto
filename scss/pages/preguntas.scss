@@ -10,19 +10,16 @@ h2 {
 
 }
 }
-.cuestionario {
-    color: $color;
-    margin: 0px ;
-   
-    
-    li {
-        
-        list-style: none;
-    text-decoration: none !important;
+.accordion-item {
+    background-color: $color-preguntas;
+    font-weight: 10; 
 
-  
-a {
-    color: $color;
+    
+}
+#donaciones {
+   p {
+
+
+    font-weight: 10; 
 }
 }
-}    

@@ -154,16 +154,12 @@ footer {
     border: solid gray;
     border-radius: 80px; }
 
-.cuestionario {
-  color: #ffff00;
-  margin: 0px; }
-  .cuestionario li {
-    list-style: none;
-    text-decoration: none !important; }
-    .cuestionario li ul {
-      padding-left: 0px !important; }
-      .cuestionario li ul a {
-        color: #ffff00; }
+.accordion-item {
+  background-color: black;
+  font-weight: 10; }
+
+#donaciones p {
+  font-weight: 10; }
 
 .formulario {
   font-family: 'Dancing Script', cursive; }

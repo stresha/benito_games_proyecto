@@ -53,7 +53,7 @@
           </div>
         </div>
       </nav>
-
+    </header>
     <main class="main__preguntas">
         <h2 id="quienes__somos">QUIENES SOMOS</h2><!--presentacion --> 
         <p> Somos una empresa dedicada a la compra y venta de video juegos 
@@ -67,37 +67,69 @@
         <p>Aceptamos las siguientes formas de pago - Consulta por otras promociones bancarias</p>
         <img src="../multimedia/img/preguntas/metodos_pago.png" alt="pagos"><img src="../multimedia/img/preguntas/ahora12.png" alt="ahora12">
         <h2 id="preguntas__frecuentes">PREGUNTAS FRECUENTES</h2>
-        <ul class="cuestionario">
-            <li>
-                <p>¿Se puede retirar en el local?</p>
-                <p>Claro que si ! tenemos un show room ubicado en capital federal, podes pasar a retirar de lunes 
-                a viernes de 9 a 18 hs</p>
-            </li>
-            <li>
-                <p>¿Hacen envios?</p>
-                <p>Si, por correo argentino llega en 24 hs, ademas ofrecemos el servicio entrega en el dia</p>
-            </li>
-            <li>
-                <p>¿Como hago para reservar en las pre-ventas?</p>
-                <p>Siempre notificamos los juegos que salen, en caso que quieras uno, te pones en contacto
-                con nosotros y el dia que nos ingresa, lo tenes en tu domicilio</p>
-            </li>
-            <li>
-                <p>¿Tiene garantia los productos?</p>
-                <p>Si, todo producto que sale de nuestras oficinas tiene garantia, podes devolverlo dentro de las 48 hs 
-                que lo recibis</p>
-            </li>
-        </ul>
-        <h2 id="donaciones">DONACIONES</h2>
-        <p>Actualmente estamos ayudando a los refugios de todo Buenos Aires para que los perros y gatos puedan
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button text-warning fs-5   bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                ¿Se puede retirar en el local?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>Claro que si ! tenemos un show room ubicado en capital federal, podes pasar a retirar de lunes 
+                a viernes de 9 a 18 hs
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed text-warning fs-5   bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                ¿Hacen envios?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Si, por correo argentino llega en 24 hs, ademas ofrecemos el servicio entrega en el dia
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed text-warning fs-5 bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                ¿Como hago para reservar en las pre-ventas?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Siempre notificamos los juegos que salen, en caso que quieras uno, te pones en contacto
+                con nosotros y el dia que nos ingresa, lo tenes en tu domicilio
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="panelsStayOpen-headingfour">
+                <button class="accordion-button collapsed text-warning fs-5   bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                ¿Tiene garantia los productos?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                <div class="accordion-body">
+                  <strong>Si, todo producto que sale de nuestras oficinas tiene garantia, podes devolverlo dentro de las 48 hs 
+                  que lo recibis
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 id="donaciones">DONACIONES</h3>
+          <p>Actualmente estamos ayudando a los refugios de todo Buenos Aires para que los perros y gatos puedan
             tener una mejor calidad de vida y pagar los tratamientos que son muy costosos, si te interesa ser parte
             contactacte con nosotros cualquier granito de arena es sufiente para hacer un cambio, ya sea con 
             alimentos, insumos o bien si queres anotate como voluntario.
-         </p> 
+          </p> 
         
-        </p>    
     </main>
-    </header>
+    
     <footer >  <!--footer y social -->
         <div class="cuerpo__banner p-4 d-flex   justify-content-around bg-light m-2" >
           <ul>
@@ -113,7 +145,7 @@
           </div>
         </div>  
         <div class="cuerpo__banner__redes" > 
-        <h3  >Nuestras redes sociales! </h3>
+        <h4  >Nuestras redes sociales! </h4>
           <ul  class=" list-group list-group-horizontal " >
             <li><a href="http://www.facebook.com" target="_blank"><img src="../multimedia/img/footer_banner/facebook.png" alt="face"></a></li>
             <li><a href="http://www.intagram.com" target="_blank"><img src="../multimedia/img/footer_banner/instagram.png" alt="ins"></a></li>
