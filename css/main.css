@@ -105,11 +105,13 @@ footer {
   background-color: #0000;
   color: #ffff00; }
 
-@media (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 700px) {
   iframe {
     width: 100%; }
   .banner_noticias {
-    padding: 20px; } }
+    padding: 20px; }
+  .cuerpo__banner__redes h3 {
+    display: none; } }
 
 .cuerpo__banner {
   /* logo posicionado flex*/
