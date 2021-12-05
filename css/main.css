@@ -165,7 +165,7 @@ footer {
   text-align: center;
   color: #ffff00;
   text-transform: uppercase; }
-  .main__preguntas h2 {
+  .main__preguntas h2, .main__preguntas #donaciones {
     border: solid gray;
     border-radius: 80px; }
 
