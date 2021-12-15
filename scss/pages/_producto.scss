@@ -1,5 +1,10 @@
-
+.cama {
+    background-image: url(../multimedia/img/tienda/fondotester.jpg);
+   
+    
+}
 .producto {
+    
     width: 220px;
     position: relative;
     transition:  3s ;
@@ -9,13 +14,14 @@
     padding: $padding-tipe / 2;
     background-image: url(../multimedia/img/contacto/table2.jpg);
     background-size: cover; 
-    border: $color solid;
+    
     border-radius: $border-grosor;
     color: $color;
 }
 
 .producto:hover {
     transform : perspective(800px) rotateY(-180deg) translateX(100%)
+    
 }
 
 .producto__back {

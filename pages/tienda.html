@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <title>Tienda | Benito Games </title>
 </head>
-<body  class="bg-black">
+<body  class="cama bg-black">
   <main class="cuerpo__banner d-flex justify-content-center align-items-center">
     <a href="../index.html"><img src="../multimedia/img/footer_banner/logo2.gif" alt="logo" width="110"></a><!--logo  -->
     <h1 class="fw-bolder"> BENITO GAMES </h1> 
@@ -56,7 +56,7 @@
     </nav>
   </header>
   
-  <div class="banner__tienda d-flex  justify-content-center align-items-center text-warning">
+  <div class="banner__tienda   d-flex  justify-content-center align-items-center text-warning">
     <img src="../multimedia/img/tienda/main30.png" alt="logo">
     <h2>TIENDA BENITO SOSA </h2>
   </div>
@@ -91,163 +91,136 @@
     <p class="text-center text-warning"> <img src="../multimedia/img/tienda/tcv.png" alt=""> Aceptamos todos los medios de pago Visa - Mastercard - Amex - Mercado Pago <img src="../multimedia/img/tienda/tcv.png" alt="tarjeta"></p>
     <p  class="text-center text-warning">Cat Friday !! no te pierdas el 30 % solo este fin de semana ! <img src="../multimedia/img/tienda/cattt.png" alt="gato"></p>
   </div>
-  <section><!--acordeon de productos -->
-    <div class="accordion font-monospace" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item acordeon__tienda p-5">
-        <h3 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button class=" accordion-button  text-warning fs-4  border border-warning bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-          CONSOLAS   
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show container-fluid" aria-labelledby="panelsStayOpen-headingOne">
-          <div class=" accordion-body row ">
-              <article  class="producto  mb-3   fs-7  col-sm-2  d-flex flex-column justify-content-center align-items-center">
-                <p>PLAY STATION 4 </p> <!--cara -->
-                <img src="../multimedia/img/tienda/consola/ps4_consola.png" alt="consola">
-                <p>$79999</p>
-                <p>touch me!</p>
-                <div class="producto__back"><!--dorso -->
-                  <p> videoconsola de origen japonés</p>
-                  <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-                </div>
-              </article>
-              <article  class="producto mb-3 fs-7 col-sm-2 offset-md-1  d-flex flex-column justify-content-center align-items-center "> 
-                  <p>X-BOX-SERIES</p><!--cara -->
-                  <img  src="../multimedia/img/tienda/consola/xbox_consola.png" alt="consola">
-                  <p>$89999</p>
-                  <p>touch me!</p>
-                  <div class="producto__back"><!--dorso -->
-                    <p>consola octava generación</p>
-                    <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-                  </div>  
-              </article>      
-              <article  class="producto mb-3  fs-7 col-sm-2 offset-md-1 d-flex flex-column justify-content-center align-items-center ">
-                  <p>NINTENDO SWITCH</p><!--cara -->
-                  <img  src="../multimedia/img/tienda/consola/swich_consola.png" alt="consola">
-                  <p>$84999</p>
-                  <p>touch me!</p>
-                  <div class="producto__back"><!--dorso -->
-                    <p>consola desarrollada por Nintendo</p>
-                    <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-                  </div>
-              </article>
-              <article  class="producto mb-3  fs-7 col-sm-2 offset-md-1  d-flex flex-column justify-content-center align-items-center">
-                  <p>RETRO GAMES</p><!--cara -->
-                  <img   src="../multimedia/img/tienda/consola/retro_consola.png" alt="consola">
-                  <p>$39999</p>
-                  <p>touch me!</p>
-                  <div class="producto__back"><!--dorso -->
-                    <p>consola japonesa de 8 bits</p>
-                    <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-                  </div>
-              </article>  
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item bg-black p-5">
-        <h3 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button class="accordion-button collapsed text-warning fs-4  border border-warning bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-          JUEGOS PLAY STATION 
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body  row">
-            <article class="producto  mb-3   fs-7 col-sm-2   d-flex flex-column justify-content-center align-items-center">
-              <p>GOD OF WARS</p><!--cara -->
-              <img src="../multimedia/img/tienda/play/god_game.png" alt="game">
-              <p >$4999</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+  
+  <section class="container-fluid"><!--acordeon de productos -->
+    
+      <div class="row  justify-content-center align-items-center  ">
+        <h3 class="text-center text-warning m-5">CONSOLAS</h3>
+        <article  class="producto  mb-3     fs-7  col-sm-4  d-flex flex-column justify-content-center align-items-center">
+            <p>PLAY STATION 4 </p> <!--cara -->
+            <img src="../multimedia/img/tienda/consola/ps4_consola.png" alt="consola">
+            <p>$79999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
+                <p> videoconsola de origen japonés</p>
+                <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
+            </div>
+        </article>
+        <article  class="producto mb-3 fs-7 col-sm-4 offset-md-1  d-flex flex-column justify-content-center align-items-center "> 
+            <p>X-BOX-SERIES</p><!--cara -->
+            <img  src="../multimedia/img/tienda/consola/xbox_consola.png" alt="consola">
+            <p>$89999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
+                <p>consola octava generación</p>
+                <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
+            </div>  
+        </article>      
+        <article  class="producto mb-3  fs-7 col-sm-2 offset-md-1 d-flex flex-column justify-content-center align-items-center ">
+            <p>NINTENDO SWITCH</p><!--cara -->
+            <img  src="../multimedia/img/tienda/consola/swich_consola.png" alt="consola">
+            <p>$84999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
+                <p>consola desarrollada por Nintendo</p>
+                <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
+            </div>
+        </article>
+        <article  class="producto mb-3  fs-7 col-sm-2 offset-md-1  d-flex flex-column justify-content-center align-items-center">
+            <p>RETRO GAMES</p><!--cara -->
+            <img   src="../multimedia/img/tienda/consola/retro_consola.png" alt="consola">
+            <p>$39999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
+                <p>consola japonesa de 8 bits</p>
+                <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
+            </div>
+        </article>
+         
+    <h3 class="text-center text-warning m-5">JUEGOS PLAY STATION</h3>
+        <article class="producto  mb-3   fs-7 col-sm-2   d-flex flex-column justify-content-center align-items-center">
+            <p>GOD OF WARS</p><!--cara -->
+            <img src="../multimedia/img/tienda/play/god_game.png" alt="game">
+            <p >$4999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p>El juego narra las aventuras de Kratos</p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div>    
-            </article>
-            <article  class="producto   mb-3  fs-7 col-sm-2 offset-md-1 d-flex flex-column justify-content-center align-items-center">
-              <p>GTA V</p><!--cara -->
-              <img  src="../multimedia/img/tienda/play/gta_game.png" alt="game">
-              <p> $4999</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div>    
+        </article>
+        <article  class="producto   mb-3  fs-7 col-sm-2 offset-md-1 d-flex flex-column justify-content-center align-items-center">
+            <p>GTA V</p><!--cara -->
+            <img  src="../multimedia/img/tienda/play/gta_game.png" alt="game">
+            <p> $4999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p>Quinta entrega de Rockstar Games.</p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div> 
-            </article>
-            <article  class="producto mb-3   fs-7 col-sm-2  offset-md-1 d-flex flex-column justify-content-center align-items-center">
-              <p>LAST OF US</p><!--cara -->
-              <img   src="../multimedia/img/tienda/play/last_game.png" alt="game">
-              <p>$4999</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div> 
+        </article>
+        <article  class="producto mb-3   fs-7 col-sm-2  offset-md-1 d-flex flex-column justify-content-center align-items-center">
+            <p>LAST OF US</p><!--cara -->
+            <img   src="../multimedia/img/tienda/play/last_game.png" alt="game">
+            <p>$4999</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p > La historia ocurre cinco años después del juego</p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div> 
-            </article>
-            <article  class="producto mb-3  fs-7 col-sm-2   offset-md-1 d-flex flex-column justify-content-center align-items-center">
-              <p>TURISMO</p><!--cara -->
-              <img  src="../multimedia/img/tienda/play/turismo_game.png" alt="game">
-              <p>$499</p>
-              <p>touch me!</p><!--dorso -->
-              <div class="producto__back">
+            </div> 
+        </article>
+        <article  class="producto mb-3  fs-7 col-sm-2   offset-md-1 d-flex flex-column justify-content-center align-items-center">
+            <p>TURISMO</p><!--cara -->
+            <img  src="../multimedia/img/tienda/play/turismo_game.png" alt="game">
+            <p>$499</p>
+            <p>touch me!</p><!--dorso -->
+            <div class="producto__back">
                 <p > Carreras cuenta con 140 autos y 11 pistas </p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div>  
-            </article>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item bg-black p-5">
-        <h3 class="accordion-header" id="panelsStayOpen-headingThree">
-          <button class="accordion-button collapsed text-warning fs-4  border border-warning bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              JUEGOS PC
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-          <div class="accordion-body row">
-            <article  class="producto  mb-3  col-sm-2  fs-7   d-flex flex-column justify-content-center align-items-center   ">
-              <p >WOLFENSTEIN</p><!--cara -->
-              <img  src="../multimedia/img/tienda/pc/wolf_pc.png" alt="game">
-              <p>$2499</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div>  
+        </article>
+    <h3 class="text-center text-warning  p-5">JUEGOS PC</h3>
+        <article  class="producto  mb-3  col-sm-2  fs-7   d-flex flex-column justify-content-center align-items-center   ">
+            <p >WOLFENSTEIN</p><!--cara -->
+            <img  src="../multimedia/img/tienda/pc/wolf_pc.png" alt="game">
+            <p>$2499</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p >Juego FPS de la Segunda Guerra Mundial</p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div>  
-            </article>
-            <article  class="producto  mb-3  fs-7 col-sm-2  offset-md-1 d-flex flex-column justify-content-center align-items-center ">
-              <p>HIT RUN</p><!--cara -->
-              <img src="../multimedia/img/tienda/pc/hit_pc.png" alt="game">
-              <p>$2499</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div>  
+        </article>
+        <article  class="producto  mb-3  fs-7 col-sm-2  offset-md-1 d-flex flex-column justify-content-center align-items-center ">
+            <p>HIT RUN</p><!--cara -->
+            <img src="../multimedia/img/tienda/pc/hit_pc.png" alt="game">
+            <p>$2499</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p >Acción-aventura basado en Los Simpson.</p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div>  
-            </article>
-            <article  class="producto mb-3    fs-7 col-sm-2   offset-md-1 d-flex flex-column justify-content-center align-items-center ">
-              <p>FARCRY 5</p><!--cara -->
-              <img  src="../multimedia/img/tienda/pc/far_pc.png" alt="game">
-              <p>$2499</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div>  
+        </article>
+        <article  class="producto mb-3    fs-7 col-sm-2   offset-md-1 d-flex flex-column justify-content-center align-items-center ">
+            <p>FARCRY 5</p><!--cara -->
+            <img  src="../multimedia/img/tienda/pc/far_pc.png" alt="game">
+            <p>$2499</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p >Culto toma el control de las comunidades </p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-                </div> 
-            </article>
-            <article  class="producto  mb-3   fs-7 col-sm-2   offset-md-1  d-flex flex-column justify-content-center align-items-center">
-              <p>BULLY</p><!--cara -->
-              <img  src="../multimedia/img/tienda/pc/bully_pc.png" alt="game">
-              <p>$2499</p>
-              <p>touch me!</p>
-              <div class="producto__back"><!--dorso -->
+            </div> 
+        </article>
+        <article  class="producto  mb-3  pl-3  fs-7 col-sm-2   offset-md-1  d-flex flex-column justify-content-center align-items-center">
+            <p>BULLY</p><!--cara -->
+            <img  src="../multimedia/img/tienda/pc/bully_pc.png" alt="game">
+            <p>$2499</p>
+            <p>touch me!</p>
+            <div class="producto__back"><!--dorso -->
                 <p > Puedes sobrevivir en la Academia </p>
                 <button class="producto__boton__tienda"><img src="../multimedia/img/tienda/carts.png" alt="carrito"></button>  
-              </div> 
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </div> 
+        </article>
+</div>
+      </section>
   <footer >  <!--footer y social -->
     <div class="cuerpo__banner  d-flex  flex-row justify-content-start">
       <ul class="list-final">
@@ -263,7 +236,7 @@
       </div>
     </div>
     
-    <div class="cuerpo__banner__redes"> 
+    <div class="cuerpo__banner__redes bg-black"> 
     <h3>Nuestras redes sociales! </h3>
       <ul  class="list-group list-group-horizontal" >
         <li><a href="http://www.facebook.com" target="_blank"><img src="../multimedia/img/footer_banner/facebook.png" alt="face"></a></li>

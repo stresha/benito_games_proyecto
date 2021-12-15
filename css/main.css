@@ -63,6 +63,9 @@ footer {
   /*sombra */
   color: #ffff00; }
 
+.cama {
+  background-image: url(../multimedia/img/tienda/fondotester.jpg); }
+
 .producto {
   width: 220px;
   position: relative;
@@ -73,7 +76,6 @@ footer {
   padding: 10px;
   background-image: url(../multimedia/img/contacto/table2.jpg);
   background-size: cover;
-  border: #ffff00 solid;
   border-radius: 80px;
   color: #ffff00; }
 
