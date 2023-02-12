@@ -56,7 +56,7 @@
     "decamelize": "^1.2.0",
     "decamelize-keys": "^1.1.0",
     "decompress-response": "^3.3.0",
-    "cacheable-request": "^6.1.0",
+    "cacheable-request": "^10.2.7",
     "cli-boxes": "^2.2.1",
     "delayed-stream": "^1.0.0",
     "dashdash": "^1.14.1",
